@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register
+    </title>
+    <table width='40%'>
+        <tr>
+            <b>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="services.html">Services</a></td>
+            <td><a href="about.html">About Us</a></td>
+            <td><a href="REGISTER.html">Register</a></td>
+            </b>
+        </tr>
+    </table>
+        <h1 style="text-align: center;"> <b>Nelson's Pizza Delivery</b></h1>
+        <h2 style="text-align: center;"><b>Online Order Form</b></h2>
+        
+</head>
+<body style="background-color: yellow;">
+    <table style="display: inline-block; width: 50%; text-align: right; vertical-align:top;">  
+    <tr> 
+   <td>*Name:     <input type="text" name="Name" size="25"> </td>  
+   <td>*Telephone:<input type="text" name="Tel" size="25"></td></tr>
+   <tr><td>
+   *Address:  <input type="text" name="Address" size="25"></td>
+   <td>*Email:    <input type="text" name="Email" size="25"><br></td></tr>
+   <tr><td>*Town/City:<input type="text" name="City" size="25"><br></td></tr>
+   <tr><td>*Postcode:<input type="text" name="Postcode" size="25" ></td></tr>
+    </table>
+   
+    <p style="text-align: justify; font-size: small; color: tomato;"><b>*Required fields </b></p><br>
+    <table width="50%">
+        <tr>
+            <td> Topping</td>
+            <td>Size</td>
+            <td>Extras</td>
+        </tr>
+        <tr>
+            <td> <input type="radio" name="Topping" id="margharita" value="margharita">
+                <label for="margharita">Margharita</label></td>
+                <td><input type="radio" name="Size" id="Small" value="Small">
+                    <label for="Small">Small</label></td>
+                <td> <input type="checkbox" name="Extras" value="Mushrooms" >Mushrooms</td>
+           
+           
+            
+        </tr>
+        <tr>
+            <td><input type="radio" name="Topping" id="Four seasons" value="Four seasons">
+                <label for="Four seasons">Four Seasons</label></td>
+            <td><input type="radio" name="Size" id="Medium" value="Medium">
+                <label for="Medium">Medium</label></td>
+            <td><input type="checkbox" name="Extras" value="Green peppers">Green peppers</td>
+                
+            
+        </tr>
+        <tr>
+            <td><input type="radio" name="Topping" id="Meat feast" value="Meat feast">
+                <label for="Meat feast">Meat Feast</label></td>
+            <td><input type="radio" name="Size" id="Large" value="Large">
+                <label for="Large">Large</label></td>
+           <td><input type="checkbox" name="Extras" value="Anchovies">Anchovies</td>  
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td><input type="checkbox" name="Extras" value="Extra cheese">Extra cheese</td>
+        </tr>
+    </table>  
+    <br>
+    <br>
+    <label for="Delivery">Preferred Delivery Time: </label>
+    <select name="Delivery" id= "Delivery" > 
+        <option value="" disabled selected hidden>--:--</option>
+        <option value="9.00am">9.00am</option>
+        <option value="12.00pm">12.00pm</option>
+        <option value="6.30pm">6.30pm</option>
+    </select><br>
+    <br>
+    <label for="Delivery instructions">Delivery instructions:  </label><br>
+    <textarea id="Delivery instructions" name="Delivery instructions" cols="60" rows=5></textarea><br>
+
+    <input type="submit" value="submit order"><br>
+
+</body>
+</html>
